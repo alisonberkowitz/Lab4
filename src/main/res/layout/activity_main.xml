@@ -8,27 +8,35 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context=".MainActivity">
 
-    <Button
+<!--    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/open_flashlight"
         android:id="@+id/to_flashlight"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/to_camera" />
+        android:layout_toLeftOf="@+id/to_camera" />-->
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/open_camera"
         android:id="@+id/to_camera"
-        android:layout_alignTop="@+id/to_flashlight"
+
         android:layout_centerHorizontal="true" />
 
-    <Button
+<!--    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/open_gps"
         android:id="@+id/to_gps"
         android:layout_alignTop="@+id/to_camera"
-        android:layout_toRightOf="@+id/to_camera" />
+        android:layout_toRightOf="@+id/to_camera" />-->
+
+<!--    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/open_microphone"
+            android:id="@+id/to_microphone"
+            android:layout_alignTop="@+id/to_camera"
+            android:layout_toRightOf="@+id/to_gps" />-->
 </RelativeLayout>

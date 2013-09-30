@@ -11,6 +11,7 @@
     <string name="new_pic_desc">Latest Picture</string>
     <string name="refresh_location">Show Coordinates</string>
     <string name="open_gps">GPS</string>
+    <string name="open_microphone">Microphone</string>
 
 
 </resources>

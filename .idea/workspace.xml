@@ -152,7 +152,7 @@
       <file leaf-file-name="activity_camera.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_camera.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="37" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.5" vertical-offset="284" max-vertical-offset="870">
+            <state line="35" column="0" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.6066351" vertical-offset="269" max-vertical-offset="870">
               <folding>
                 <element signature="e#323#345#0" expanded="true" />
               </folding>
@@ -696,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/res/layout/activity_camera.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="37" selection-start="1395" selection-end="1395" vertical-scroll-proportion="0.5" vertical-offset="284" max-vertical-offset="870">
+        <state line="35" column="0" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.6066351" vertical-offset="269" max-vertical-offset="870">
           <folding>
             <element signature="e#323#345#0" expanded="true" />
           </folding>

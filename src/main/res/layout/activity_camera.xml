@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="bottom">
+    android:gravity="top|center_horizontal">
 
     <ImageView
         android:contentDescription="@string/new_pic_desc"
@@ -15,26 +15,39 @@
         android:layout_alignParentLeft="true"
         android:layout_above="@+id/takePicture" />
 
-    <Button
-            android:layout_width="fill_parent"
+    <ImageButton
+            android:src="@drawable/camera_icon"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/take_picture"
+            android:background="@drawable/camera_icon"
             android:id="@+id/takePicture"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true" />
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/lon"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/where"
+            android:text="You SnapWhered that photo at:"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="50px"
             android:layout_gravity="center"/>
 
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/lon"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/where"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
             android:id="@+id/lat"
+            android:layout_centerHorizontal="true"
             android:layout_below="@+id/lon"/>
 
 </RelativeLayout>

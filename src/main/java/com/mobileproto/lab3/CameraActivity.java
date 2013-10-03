@@ -12,6 +12,7 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -36,11 +37,13 @@ public class CameraActivity extends Activity {
 
         final GPS gps = new GPS(this);
 
-        Button take_picture = (Button) findViewById(R.id.takePicture);
+        final ImageButton take_picture = (ImageButton) findViewById(R.id.takePicture);
+        take_picture.setBackgroundResource(R.drawable.pressing);
 
         take_picture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
                 Intent i = new Intent("android.media.action.IMAGE_CAPTURE");
                 File f = new File(Environment.getExternalStorageDirectory(), "pic.jpg");
                 i.putExtra(MediaStore.EXTRA_OUTPUT, Uri.fromFile(f));
